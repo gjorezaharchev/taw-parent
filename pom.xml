@@ -55,11 +55,6 @@
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>com.github.gjorezaharchev</groupId>
-            <artifactId>test-automation-wrapper</artifactId>
-            <version>${taw.version}</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
         <dependency>
             <groupId>org.assertj</groupId>
