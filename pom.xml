@@ -6,7 +6,7 @@
 
     <groupId>com.taw</groupId>
     <artifactId>taw-parent</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <packaging>pom</packaging>
 
     <name>test-automation-parrent</name>
@@ -44,7 +44,8 @@
         <testng.version>7.5</testng.version>
         <appium.version>7.6.0</appium.version>
         <googleauth.version>1.4.0</googleauth.version>
-        <taw.version>0.0.20</taw.version>
+        <rest.assured>4.5.1</rest.assured>
+        <gson>2.9.0</gson>
     </properties>
 
     <repositories>
@@ -106,6 +107,28 @@
             <groupId>com.warrenstrange</groupId>
             <artifactId>googleauth</artifactId>
             <version>${googleauth.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest.assured}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-path</artifactId>
+            <version>${rest.assured}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson}</version>
         </dependency>
 
     </dependencies>
