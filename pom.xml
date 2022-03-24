@@ -6,7 +6,7 @@
 
     <groupId>com.taw</groupId>
     <artifactId>taw-parent</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <packaging>pom</packaging>
 
     <name>test-automation-parrent</name>
@@ -78,7 +78,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <scope>test</scope>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
