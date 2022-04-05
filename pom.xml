@@ -6,7 +6,7 @@
 
     <groupId>com.taw</groupId>
     <artifactId>taw-parent</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7</version>
     <packaging>pom</packaging>
 
     <name>test-automation-parrent</name>
@@ -42,7 +42,7 @@
         <sqlunit.version>0.4.1</sqlunit.version>
         <poi.version>3.17</poi.version>
         <testng.version>7.5</testng.version>
-        <appium.version>7.6.0</appium.version>
+        <appium.version>8.0.0</appium.version>
         <googleauth.version>1.4.0</googleauth.version>
         <rest.assured>4.5.1</rest.assured>
         <gson>2.9.0</gson>
