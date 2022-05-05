@@ -6,10 +6,10 @@
 
     <groupId>com.taw</groupId>
     <artifactId>taw-parent</artifactId>
-    <version>0.0.8</version>
+    <version>0.0.9</version>
     <packaging>pom</packaging>
 
-    <name>test-automation-parrent</name>
+    <name>test-automation-parent</name>
     <description>full-stack wrapper framework</description>
     <url>https://github.com/gjorezaharchev/taw-parent</url>
 
@@ -50,6 +50,7 @@
         <java.faker>1.0.2</java.faker>
         <extent.reports>5.0.9</extent.reports>
         <webdrivermanager>5.1.1</webdrivermanager>
+        <mailinator.version>1.6</mailinator.version>
     </properties>
 
     <repositories>
@@ -155,6 +156,14 @@
             <artifactId>extentreports</artifactId>
             <version>${extent.reports}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.manybrain/mailinator-client -->
+        <dependency>
+            <groupId>com.manybrain</groupId>
+            <artifactId>mailinator-client</artifactId>
+            <version>${mailinator.version}</version>
+        </dependency>
+
 
     </dependencies>
 
