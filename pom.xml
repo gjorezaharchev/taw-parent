@@ -6,7 +6,7 @@
 
     <groupId>com.taw</groupId>
     <artifactId>taw-parent</artifactId>
-    <version>0.0.10</version>
+    <version>0.0.11</version>
     <packaging>pom</packaging>
 
     <name>test-automation-parent</name>
@@ -38,7 +38,7 @@
         <maven.compiler>3.8.1</maven.compiler>
         <maven.surefire>3.0.0-M4</maven.surefire>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.1.2</selenium.version>
+        <selenium.version>4.7.2</selenium.version>
         <sqlunit.version>0.4.1</sqlunit.version>
         <poi.version>3.17</poi.version>
         <testng.version>7.5</testng.version>
